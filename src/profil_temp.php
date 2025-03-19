@@ -12,8 +12,8 @@
                     <h2 class="mt-4 text-center">Joseph Harvey<br>NDOUTOUME-BE</h2>
                     <div class="social-links text-center mt-3">
                         <a href="https://www.linkedin.com/in/joseph-harvey-ndoutoume-be-a3849b279" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/votre-username" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="mailto:josephharvey8@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://github.com/blck18/projet-portfolio-bts" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:josephharveyn8@gmail.com"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
