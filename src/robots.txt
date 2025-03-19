@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /config/
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://votre-domaine.com/sitemap.xml
