@@ -36,7 +36,7 @@
                         </div>
                         <div class="contact-details">
                             <h4>GitHub</h4>
-                            <p>github.com/votre-username</p>
+                            <p><a href="https://github.com/blck18/projet-portfolio-bts" target="_blank">github.com/blck18/projet-portfolio-bts</a></p>
                         </div>
                     </div>
                     
