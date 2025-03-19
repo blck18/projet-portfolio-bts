@@ -46,35 +46,25 @@
                         </div>
                         <div class="contact-details">
                             <h4>Localisation</h4>
-                            <p>Limoges, France</p>
+                            <p>79 avenue montjovis, 87100 Limoges, France</p>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="col-lg-7">
-                <div class="contact-form-card">
-                    <h3 class="mb-4">Envoyez-moi un message</h3>
-                    
-                    <form id="contact-form">
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="name" placeholder="Nom" required>
-                        </div>
-                        
-                        <div class="mb-3">
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
-                        </div>
-                        
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="subject" placeholder="Sujet" required>
-                        </div>
-                        
-                        <div class="mb-3">
-                            <textarea class="form-control" id="message" rows="5" placeholder="Message" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary">Envoyer</button>
-                    </form>
+                <div class="contact-map-card">
+                    <h3 class="mb-4">Me localiser</h3>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.5431690542224!2d1.2651169!3d45.8406611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f934c6c7c5c5a3%3A0x5a1f3c5e9faa1e8!2s79%20Av.%20Montjovis%2C%2087100%20Limoges!5e0!3m2!1sfr!2sfr!4v1616593335339!5m2!1sfr!2sfr" 
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
                 </div>
             </div>
         </div>

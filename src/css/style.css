@@ -659,6 +659,56 @@ section::before {
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* Contact Map */
+.contact-map-card {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: var(--card-shadow);
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.contact-map-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.map-container {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.map-container iframe {
+    display: block;
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+}
+
+.map-container:hover iframe {
+    filter: brightness(1.05);
+}
+
+.map-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--border-radius);
+    box-shadow: inset 0 0 10px rgba(0, 191, 255, 0.3);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.map-container:hover::after {
+    opacity: 1;
+}
+
 /* Footer */
 footer {
     background-color: #121212;
@@ -1675,6 +1725,104 @@ footer {
     display: inline-block;
     font-weight: 700;
     text-shadow: none;
+}
+
+/* Text Scramble Animation */
+.scramble-text {
+    position: relative;
+    cursor: default;
+    transition: all 0.3s ease;
+}
+
+.scramble-char {
+    color: var(--hover-color);
+    display: inline-block;
+    animation: flicker 0.2s infinite;
+}
+
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+.welcome-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.7), 0 0 20px rgba(0, 191, 255, 0.5);
+    position: relative;
+    overflow: hidden;
+    animation: titleGlow 3s infinite alternate;
+}
+
+@keyframes titleGlow {
+    0% {
+        text-shadow: 0 0 10px rgba(0, 191, 255, 0.7), 0 0 20px rgba(0, 191, 255, 0.5);
+        color: #ffffff;
+    }
+    50% {
+        text-shadow: 0 0 15px rgba(0, 191, 255, 0.9), 0 0 30px rgba(0, 191, 255, 0.7), 0 0 45px rgba(0, 191, 255, 0.5);
+        color: #f0f8ff;
+    }
+    100% {
+        text-shadow: 0 0 10px rgba(0, 191, 255, 0.7), 0 0 20px rgba(0, 191, 255, 0.5);
+        color: #ffffff;
+    }
+}
+
+.welcome-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    animation: lineAnimation 3s ease-in-out infinite;
+}
+
+@keyframes lineAnimation {
+    0% {
+        width: 0;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+/* Nom de l'auteur */
+.author-name {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.author-name::before,
+.author-name::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--primary-color), transparent);
+}
+
+.author-name::before {
+    left: -40px;
+}
+
+.author-name::after {
+    right: -40px;
 }
 
 /* Text Scramble Animation */
