@@ -158,9 +158,9 @@
                                                     <div class="skill-info">
                                                         <h5>Bash</h5>
                                                         <div class="skill-bar">
-                                                            <div class="skill-progress" style="width: 65%;"></div>
+                                                            <div class="skill-progress" style="width: 85%;"></div>
                                                         </div>
-                                                        <span class="skill-percentage">65%</span>
+                                                        <span class="skill-percentage">85%</span>
                                                     </div>
                                                 </div>
                                             </div>
