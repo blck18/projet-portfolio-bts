@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM chargé, initialisation des animations...');
     
+    /* Désactivation des effets de hacking
     // Ajouter l'attribut data-text pour l'effet glitch
     const glitchElements = document.querySelectorAll('.glitch-hover');
     glitchElements.forEach(el => {
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         typeWriter();
     });
+    */
     
     // Effet de défilement fluide pour les liens d'ancrage
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -222,6 +224,52 @@ document.addEventListener('DOMContentLoaded', function() {
             retina_detect: true
         });
     }
+    
+    // Fonction pour ajouter une vidéo en arrière-plan à une section
+    function addVideoBackground(sectionId, videoPath) {
+        const section = document.getElementById(sectionId);
+        if (!section) return;
+        
+        // Ajouter la classe pour les styles spécifiques
+        section.classList.add('section-with-video-bg');
+        
+        // Créer le conteneur pour la vidéo
+        const videoContainer = document.createElement('div');
+        videoContainer.className = 'video-background-container';
+        
+        // Créer l'overlay pour assurer la lisibilité du texte
+        const overlay = document.createElement('div');
+        overlay.className = 'video-overlay';
+        
+        // Créer l'élément vidéo
+        const video = document.createElement('video');
+        video.className = 'video-background';
+        video.autoplay = true;
+        video.loop = true;
+        video.muted = true;
+        video.playsInline = true;
+        video.src = videoPath;
+        
+        // Assembler les éléments
+        videoContainer.appendChild(video);
+        videoContainer.appendChild(overlay);
+        
+        // Insérer au début de la section
+        section.insertBefore(videoContainer, section.firstChild);
+    }
+
+    // Initialisation des vidéos en arrière-plan
+    const videoPath = 'videos/background.mp4';
+    
+    // Ajouter la vidéo aux sections principales
+    addVideoBackground('profil', videoPath);
+    addVideoBackground('bts-sio', videoPath);
+    addVideoBackground('ateliers-pro', videoPath);
+    addVideoBackground('situations-pro', videoPath);
+    addVideoBackground('stages', videoPath);
+    addVideoBackground('certifications', videoPath);
+    addVideoBackground('veille', videoPath);
+    addVideoBackground('contact', videoPath);
     
     console.log('Toutes les animations ont été initialisées avec succès!');
 });

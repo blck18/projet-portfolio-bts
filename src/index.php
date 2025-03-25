@@ -18,13 +18,13 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 mx-auto text-center hero-content">
-                    <h1 class="welcome-title mb-3" data-aos="zoom-in" data-text="Bienvenue sur mon portfolio">Bienvenue sur mon portfolio</h1>
-                    <h2 class="display-4 mb-4 gradient-text glitch-hover scramble-text" data-aos="fade-up" data-aos-delay="300" data-text="PORTFOLIO BTS SIO">PORTFOLIO BTS SIO</h2>
-                    <h3 class="author-name mb-4 scramble-text" data-aos="fade-up" data-aos-delay="400" data-text="NDOUTOUME-BE Joseph Harvey">NDOUTOUME-BE Joseph Harvey</h3>
+                    <h1 class="welcome-title mb-3" data-aos="zoom-in">Bienvenue sur mon portfolio</h1>
+                    <h2 class="display-4 mb-4 gradient-text" data-aos="fade-up" data-aos-delay="300">PORTFOLIO BTS SIO</h2>
+                    <h3 class="author-name mb-4" data-aos="fade-up" data-aos-delay="400">NDOUTOUME-BE Joseph Harvey</h3>
                     <p class="lead mb-5 text-white" data-aos="fade-up" data-aos-delay="500">Services Informatiques aux Organisations - Option SISR</p>
                     <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="700">
-                        <a href="#profil" class="btn btn-outline-primary neon-btn me-3">Voir mon profil</a>
-                        <a href="#projets" class="btn btn-primary glow-btn">Mes projets</a>
+                        <a href="profil.php" class="btn btn-outline-primary neon-btn me-3">Voir mon profil</a>
+                        <a href="ateliers-pro.php" class="btn btn-primary glow-btn">Mes projets</a>
                     </div>
                     <div class="scroll-indicator-container">
                         <div class="scroll-indicator"></div>

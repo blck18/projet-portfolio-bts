@@ -3,7 +3,7 @@
 <!-- Veille Technologique -->
 <section id="veille" class="py-5 veille-section">
     <div class="container">
-        <h1 class="text-center mb-5 section-title" data-text="VEILLE TECHNOLOGIQUE">VEILLE TECHNOLOGIQUE</h1>
+        <h1 class="text-center mb-5 section-title">VEILLE TECHNOLOGIQUE</h1>
         
         <div class="row">
             <div class="col-lg-8 mx-auto">

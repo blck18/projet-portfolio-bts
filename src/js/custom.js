@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Fonction pour animer les barres de compétences lorsqu'elles sont visibles
     function animateSkillBarsOnScroll() {
-        const skillBars = document.querySelectorAll('.skill-progress');
+        const skillBars = document.querySelectorAll('.skill-progress, .quality-progress');
         
         skillBars.forEach(bar => {
             if (isElementInViewport(bar)) {
@@ -30,6 +30,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Appliquer l'animation
                     bar.classList.add('animated');
                     bar.style.width = width;
+                    
+                    // Ajouter une transition pour l'animation
+                    bar.style.transition = 'width 1s ease-in-out';
                 }
             }
         });
@@ -41,4 +44,58 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Exécuter une fois au chargement
     animateSkillBarsOnScroll();
+    
+    // Animation des cartes de compétences et qualités
+    function animateCards() {
+        const cards = document.querySelectorAll('.skill-card, .quality-item, .education-content');
+        
+        cards.forEach((card, index) => {
+            if (isElementInViewport(card) && !card.classList.contains('animated-card')) {
+                card.classList.add('animated-card');
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                
+                // Délai progressif pour l'effet en cascade
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, 100 * index);
+            }
+        });
+    }
+    
+    // Exécuter l'animation des cartes
+    window.addEventListener('scroll', animateCards);
+    window.addEventListener('resize', animateCards);
+    animateCards();
+    
+    // Animation de l'image de profil
+    const profileImage = document.querySelector('.profile-image-wrapper');
+    if (profileImage) {
+        profileImage.style.opacity = '0';
+        profileImage.style.transform = 'scale(0.8)';
+        profileImage.style.transition = 'opacity 1s ease, transform 1s ease';
+        
+        setTimeout(() => {
+            profileImage.style.opacity = '1';
+            profileImage.style.transform = 'scale(1)';
+        }, 300);
+    }
+    
+    // Animation du texte d'en-tête
+    const profileHeaderInfo = document.querySelector('.profile-header-info');
+    if (profileHeaderInfo) {
+        const elements = profileHeaderInfo.children;
+        Array.from(elements).forEach((element, index) => {
+            element.style.opacity = '0';
+            element.style.transform = 'translateX(20px)';
+            element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            
+            setTimeout(() => {
+                element.style.opacity = '1';
+                element.style.transform = 'translateX(0)';
+            }, 300 + (100 * index));
+        });
+    }
 });

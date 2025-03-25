@@ -102,7 +102,6 @@
                                         </div>
                                         <div class="card-3d-back light-card-back">
                                             <ul class="list-unstyled">
-                                                <li><span class="tech-badge-light">HTML/CSS</span></li>
                                                 <li><span class="tech-badge-light">PHP</span></li>
                                                 <li><span class="tech-badge-light">Python</span></li>
                                                 <li><span class="tech-badge-light">SQL</span></li>

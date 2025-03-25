@@ -95,12 +95,6 @@
                             <h5>Programmation :</h5>
                             <div class="skill-bars">
                                 <div class="skill-item">
-                                    <div class="skill-label">HTML/CSS</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-progress" style="width: 85%;">85%</div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
                                     <div class="skill-label">PHP</div>
                                     <div class="skill-bar">
                                         <div class="skill-progress" style="width: 75%;">75%</div>

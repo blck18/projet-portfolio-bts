@@ -3,7 +3,7 @@
 <!-- Stages -->
 <section id="stages" class="py-5 stages-section">
     <div class="container">
-        <h1 class="text-center mb-5 section-title" data-text="STAGES">STAGES</h1>
+        <h1 class="text-center mb-5 section-title">STAGES</h1>
         
         <!-- Stage de deuxième année -->
         <div class="stage-card mb-5">
