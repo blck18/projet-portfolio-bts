@@ -6,9 +6,9 @@
             <div class="row align-items-center">
                 <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
                     <div class="footer-brand">
-                        <div class="footer-logo-3d">
-                            <i class="fab fa-linux"></i>
-                            <span class="logo-text">JH</span>
+                        <div class="footer-clock" id="footer-clock">
+                            <i class="far fa-clock"></i>
+                            <span class="clock-text" id="current-datetime"></span>
                         </div>
                         <p class="footer-tagline">Solutions d'Infrastructure, Systèmes et Réseaux</p>
                     </div>

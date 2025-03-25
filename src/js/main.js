@@ -2,6 +2,32 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM chargé, initialisation des animations...');
     
+    // Fonction pour mettre à jour la date et l'heure en temps réel
+    function updateDateTime() {
+        const now = new Date();
+        const options = { 
+            weekday: 'long', 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit'
+        };
+        const dateTimeString = now.toLocaleDateString('fr-FR', options);
+        const dateTimeElement = document.getElementById('current-datetime');
+        
+        if (dateTimeElement) {
+            dateTimeElement.textContent = dateTimeString;
+        }
+    }
+    
+    // Mettre à jour l'heure immédiatement
+    updateDateTime();
+    
+    // Mettre à jour l'heure toutes les secondes
+    setInterval(updateDateTime, 1000);
+    
     /* Désactivation des effets de hacking
     // Ajouter l'attribut data-text pour l'effet glitch
     const glitchElements = document.querySelectorAll('.glitch-hover');

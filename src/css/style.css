@@ -504,19 +504,50 @@ footer {
     transform-style: preserve-3d;
 }
 
-.footer-logo-3d {
+.footer-clock {
     position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
+    background: rgba(10, 17, 40, 0.7);
+    padding: 0.75rem 1.25rem;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
 }
 
-.footer-logo-3d i {
-    font-size: 2.5rem;
+.footer-clock:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(77, 121, 255, 0.4);
+}
+
+.footer-clock i {
+    font-size: 1.5rem;
     color: var(--primary-color);
-    transform: translateZ(20px);
-    transition: all 0.3s ease;
-    text-shadow: 0 0 20px rgba(77, 121, 255, 0.7);
+    margin-right: 0.75rem;
+    animation: pulse 2s infinite;
+}
+
+.clock-text {
+    color: var(--text-color);
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .footer-tagline {
