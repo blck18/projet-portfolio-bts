@@ -1,0 +1,350 @@
+/* Styles pour la section Stages */
+:root {
+    --stage-primary: #4d79ff;
+    --stage-secondary: #00d9ff;
+    --stage-bg: #0a1128;
+    --stage-card-bg: rgba(22, 27, 46, 0.8);
+    --stage-border: rgba(255, 255, 255, 0.1);
+    --stage-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    --stage-hover-shadow: 0 15px 40px rgba(77, 121, 255, 0.4);
+}
+
+/* Background avec particles */
+.stages-section {
+    position: relative;
+    padding: 100px 0;
+    background: linear-gradient(135deg, #0a1128, #1a2a5e);
+    overflow: hidden;
+}
+
+#stages-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.stages-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Timeline */
+.stages-timeline {
+    position: relative;
+    padding: 40px 0;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background: linear-gradient(to bottom, var(--stage-primary), var(--stage-secondary));
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+/* Stage Cards */
+.stage-card {
+    position: relative;
+    background: var(--stage-card-bg);
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 50px;
+    border: 1px solid var(--stage-border);
+    box-shadow: var(--stage-shadow);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+
+.stage-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--stage-hover-shadow);
+}
+
+.stage-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, var(--stage-primary), var(--stage-secondary));
+}
+
+.stage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.stage-header h2 {
+    font-size: 1.8rem;
+    margin: 0;
+    background: linear-gradient(90deg, var(--stage-primary), var(--stage-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.stage-date {
+    background: rgba(77, 121, 255, 0.2);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.stage-date i {
+    margin-right: 8px;
+    color: var(--stage-secondary);
+}
+
+/* Company Info */
+.stage-info {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stage-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--stage-secondary);
+}
+
+.company-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.company-address {
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.company-address i {
+    margin-right: 10px;
+    color: var(--stage-primary);
+    margin-top: 4px;
+}
+
+/* Missions */
+.stage-missions {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stage-missions h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--stage-secondary);
+}
+
+.stage-missions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stage-missions li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+    transition: transform 0.3s ease;
+}
+
+.stage-missions li:hover {
+    transform: translateX(5px);
+}
+
+.stage-missions li i {
+    color: var(--stage-primary);
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+/* Technologies */
+.stage-technologies {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stage-technologies h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--stage-secondary);
+}
+
+.technologies-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-badge {
+    background: linear-gradient(135deg, rgba(77, 121, 255, 0.2), rgba(0, 217, 255, 0.2));
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.tech-badge:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 217, 255, 0.3);
+    background: linear-gradient(135deg, rgba(77, 121, 255, 0.3), rgba(0, 217, 255, 0.3));
+}
+
+/* Results */
+.stage-results {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stage-results h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--stage-secondary);
+}
+
+.stage-results p {
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Compétences acquises */
+.stage-skills {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stage-skills h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--stage-secondary);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+    background: rgba(77, 121, 255, 0.1);
+    transform: translateX(5px);
+}
+
+.skill-item i {
+    color: var(--stage-primary);
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .stage-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .stage-date {
+        margin-top: 10px;
+    }
+    
+    .stage-card {
+        padding: 20px;
+    }
+    
+    .stage-header h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Animation pour les cartes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.stage-card {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.stage-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+/* Bouton de téléchargement du rapport */
+.report-button {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(135deg, var(--stage-primary), var(--stage-secondary));
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.report-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(77, 121, 255, 0.5);
+    color: white;
+}
+
+.report-button i {
+    margin-right: 10px;
+}
