@@ -109,27 +109,27 @@
             <!-- Certification 4 -->
             <div class="certification-card fade-in" style="animation-delay: 0.4s;">
                 <div class="certification-header">
-                    <img src="images/cisco-logo.png" alt="CCNA" class="certification-logo">
-                    <h3 class="certification-title">Cisco CCNA</h3>
-                    <p class="certification-issuer">Cisco Systems</p>
-                    <span class="certification-date">En préparation</span>
+                    <img src="images/cnil-logo.png" alt="CNIL RGPD" class="certification-logo">
+                    <h3 class="certification-title">Atelier RGPD</h3>
+                    <p class="certification-issuer">CNIL - Commission Nationale de l'Informatique et des Libertés</p>
+                    <span class="certification-date">Complété</span>
                 </div>
                 <div class="certification-content">
                     <p class="certification-description">
-                        La certification Cisco CCNA (Cisco Certified Network Associate) valide les compétences fondamentales en matière de réseaux, incluant l'installation, la configuration et le dépannage des réseaux d'entreprise. Cette certification est reconnue mondialement dans le domaine des réseaux.
+                        L'atelier RGPD de la CNIL m'a permis d'acquérir les connaissances essentielles sur le Règlement Général sur la Protection des Données. Cette formation couvre les principes fondamentaux de la protection des données personnelles, les droits des personnes concernées, et les obligations des responsables de traitement et des sous-traitants.
                     </p>
                     <div class="skill-tags">
-                        <span class="skill-tag">Réseaux</span>
-                        <span class="skill-tag">Routage</span>
-                        <span class="skill-tag">Commutation</span>
-                        <span class="skill-tag">Sécurité réseau</span>
+                        <span class="skill-tag">Protection des données</span>
+                        <span class="skill-tag">Conformité RGPD</span>
+                        <span class="skill-tag">Droits des personnes</span>
+                        <span class="skill-tag">Sécurité des données</span>
                     </div>
                     <div class="certification-actions">
                         <a href="#" class="certification-btn">
                             <i class="fas fa-certificate"></i>
-                            En préparation
+                            Complété
                         </a>
-                        <a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html" target="_blank" class="certification-btn">
+                        <a href="https://www.cnil.fr/fr/rgpd-se-former-et-sinformer" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
                             Voir le site
                         </a>
@@ -183,13 +183,13 @@
             
             <div class="row">
                 <div class="col-md-3">
-                    <p>Cisco CCNA</p>
+                    <p>Atelier RGPD</p>
                 </div>
                 <div class="col-md-9">
                     <div class="progress-bar-container">
-                        <div class="progress-bar" data-percentage="15" style="width: 0%"></div>
-                        <span class="progress-label">Cisco CCNA</span>
-                        <span class="progress-percentage">15%</span>
+                        <div class="progress-bar" data-percentage="100" style="width: 0%"></div>
+                        <span class="progress-label">Atelier RGPD</span>
+                        <span class="progress-percentage">100%</span>
                     </div>
                 </div>
             </div>
