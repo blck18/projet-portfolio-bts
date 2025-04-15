@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/certifications.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/stages.css">
+    <link rel="stylesheet" href="css/veille.css">
     <!-- Three.js from CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <!-- Particles.js -->

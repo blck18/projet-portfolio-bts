@@ -15,10 +15,12 @@
             <!-- Certification 1 -->
             <div class="certification-card fade-in" style="animation-delay: 0.1s;">
                 <div class="certification-header">
-                    <img src="images/pix-logo.png" alt="PIX" class="certification-logo">
+                    <div class="certification-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
                     <h3 class="certification-title">PIX</h3>
                     <p class="certification-issuer">Certification des compétences numériques</p>
-                    <span class="certification-date">En cours</span>
+                    <span class="certification-date">Complété</span>
                 </div>
                 <div class="certification-content">
                     <p class="certification-description">
@@ -38,7 +40,7 @@
                         </a>
                         <a href="https://pix.fr/" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
-                            Voir le site
+                            Aperçu
                         </a>
                     </div>
                 </div>
@@ -47,10 +49,12 @@
             <!-- Certification 2 -->
             <div class="certification-card fade-in" style="animation-delay: 0.2s;">
                 <div class="certification-header">
-                    <img src="images/secnum-logo.png" alt="SecNumAcadémie" class="certification-logo">
+                    <div class="certification-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
                     <h3 class="certification-title">SecNumAcadémie</h3>
                     <p class="certification-issuer">ANSSI - Cybersécurité</p>
-                    <span class="certification-date">En cours</span>
+                    <span class="certification-date">Complété</span>
                 </div>
                 <div class="certification-content">
                     <p class="certification-description">
@@ -69,7 +73,7 @@
                         </a>
                         <a href="https://secnumacademie.gouv.fr/" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
-                            Voir le site
+                            Aperçu
                         </a>
                     </div>
                 </div>
@@ -78,14 +82,16 @@
             <!-- Certification 3 -->
             <div class="certification-card fade-in" style="animation-delay: 0.3s;">
                 <div class="certification-header">
-                    <img src="images/aws-logo.png" alt="AWS Cloud Practitioner" class="certification-logo">
-                    <h3 class="certification-title">AWS Cloud Practitioner</h3>
+                    <div class="certification-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3 class="certification-title">AWS Cloud Foundations</h3>
                     <p class="certification-issuer">Amazon Web Services</p>
                     <span class="certification-date">En préparation</span>
                 </div>
                 <div class="certification-content">
                     <p class="certification-description">
-                        La certification AWS Cloud Practitioner valide les connaissances fondamentales du cloud AWS, y compris l'architecture, la sécurité, la tarification et les services de base. Cette certification me permettra de démontrer ma compréhension des concepts cloud et des services AWS.
+                        La certification AWS Cloud Foundations valide les connaissances fondamentales du cloud AWS, y compris l'architecture, la sécurité, la tarification et les services de base. Cette certification me permettra de démontrer ma compréhension des concepts cloud et des services AWS.
                     </p>
                     <div class="skill-tags">
                         <span class="skill-tag">Cloud Computing</span>
@@ -100,7 +106,7 @@
                         </a>
                         <a href="https://aws.amazon.com/fr/certification/certified-cloud-practitioner/" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
-                            Voir le site
+                            Aperçu
                         </a>
                     </div>
                 </div>
@@ -109,7 +115,9 @@
             <!-- Certification 4 -->
             <div class="certification-card fade-in" style="animation-delay: 0.4s;">
                 <div class="certification-header">
-                    <img src="images/cnil-logo.png" alt="CNIL RGPD" class="certification-logo">
+                    <div class="certification-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
                     <h3 class="certification-title">Atelier RGPD</h3>
                     <p class="certification-issuer">CNIL - Commission Nationale de l'Informatique et des Libertés</p>
                     <span class="certification-date">Complété</span>
@@ -131,7 +139,41 @@
                         </a>
                         <a href="https://www.cnil.fr/fr/rgpd-se-former-et-sinformer" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
-                            Voir le site
+                            Aperçu
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certification 5 -->
+            <div class="certification-card fade-in" style="animation-delay: 0.5s;">
+                <div class="certification-header">
+                    <div class="certification-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3 class="certification-title">TryHackMe</h3>
+                    <p class="certification-issuer">Plateforme d'apprentissage de la cybersécurité</p>
+                    <span class="certification-date">En cours</span>
+                </div>
+                <div class="certification-content">
+                    <p class="certification-description">
+                        TryHackMe est une plateforme d'apprentissage de la cybersécurité qui propose des challenges pratiques et des rooms thématiques pour développer des compétences en sécurité offensive et défensive. Cette formation me permet d'acquérir des compétences pratiques en pentesting, analyse de vulnérabilités et réponse aux incidents.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pentesting</span>
+                        <span class="skill-tag">Ethical Hacking</span>
+                        <span class="skill-tag">Analyse de vulnérabilités</span>
+                        <span class="skill-tag">CTF</span>
+                        <span class="skill-tag">Blue Team</span>
+                    </div>
+                    <div class="certification-actions">
+                        <a href="#" class="certification-btn">
+                            <i class="fas fa-certificate"></i>
+                            En cours
+                        </a>
+                        <a href="https://tryhackme.com/" target="_blank" class="certification-btn">
+                            <i class="fas fa-external-link-alt"></i>
+                            Aperçu
                         </a>
                     </div>
                 </div>
@@ -148,9 +190,9 @@
                 </div>
                 <div class="col-md-9">
                     <div class="progress-bar-container">
-                        <div class="progress-bar" data-percentage="43" style="width: 0%"></div>
+                        <div class="progress-bar" data-percentage="100" style="width: 0%"></div>
                         <span class="progress-label">PIX</span>
-                        <span class="progress-percentage">43%</span>
+                        <span class="progress-percentage">100%</span>
                     </div>
                 </div>
             </div>
@@ -161,27 +203,27 @@
                 </div>
                 <div class="col-md-9">
                     <div class="progress-bar-container">
-                        <div class="progress-bar" data-percentage="75" style="width: 0%"></div>
+                        <div class="progress-bar" data-percentage="100" style="width: 0%"></div>
                         <span class="progress-label">SecNumAcadémie</span>
-                        <span class="progress-percentage">75%</span>
+                        <span class="progress-percentage">100%</span>
                     </div>
                 </div>
             </div>
             
             <div class="row mb-4">
                 <div class="col-md-3">
-                    <p>AWS Cloud Practitioner</p>
+                    <p>AWS Cloud Foundations</p>
                 </div>
                 <div class="col-md-9">
                     <div class="progress-bar-container">
-                        <div class="progress-bar" data-percentage="25" style="width: 0%"></div>
-                        <span class="progress-label">AWS Cloud Practitioner</span>
-                        <span class="progress-percentage">25%</span>
+                        <div class="progress-bar" data-percentage="85" style="width: 0%"></div>
+                        <span class="progress-label">AWS Cloud Foundations</span>
+                        <span class="progress-percentage">85%</span>
                     </div>
                 </div>
             </div>
             
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col-md-3">
                     <p>Atelier RGPD</p>
                 </div>
@@ -190,6 +232,19 @@
                         <div class="progress-bar" data-percentage="100" style="width: 0%"></div>
                         <span class="progress-label">Atelier RGPD</span>
                         <span class="progress-percentage">100%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mb-4">
+                <div class="col-md-3">
+                    <p>TryHackMe</p>
+                </div>
+                <div class="col-md-9">
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" data-percentage="25" style="width: 0%"></div>
+                        <span class="progress-label">TryHackMe</span>
+                        <span class="progress-percentage">25%</span>
                     </div>
                 </div>
             </div>

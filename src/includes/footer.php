@@ -58,6 +58,7 @@
     <script src="js/certifications.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/stages.js"></script>
+    <script src="js/veille.js"></script>
     <script>
         AOS.init();
     </script>
