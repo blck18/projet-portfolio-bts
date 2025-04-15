@@ -16,3 +16,6 @@ RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /var/www/html
+
+# Copie des fichiers du projet
+COPY . /var/www/html/
