@@ -1,6 +1,9 @@
 # Activation du module de réécriture d'URL
 RewriteEngine On
 
+# Définir le fichier d'index par défaut
+DirectoryIndex index.php
+
 # Redirection vers HTTPS (à activer en production)
 # RewriteCond %{HTTPS} off
 # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
