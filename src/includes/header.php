@@ -48,15 +48,15 @@
                 </a>
             </li>
             <li class="sidebar-item">
-                <a class="sidebar-link" href="profil.php">
-                    <span class="icon-3d"><i class="fas fa-user"></i></span>
-                    <span class="nav-text">Profil</span>
-                </a>
-            </li>
-            <li class="sidebar-item">
                 <a class="sidebar-link" href="bts-sio.php">
                     <span class="icon-3d"><i class="fas fa-graduation-cap"></i></span>
                     <span class="nav-text">BTS SIO</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a class="sidebar-link" href="profil.php">
+                    <span class="icon-3d"><i class="fas fa-user"></i></span>
+                    <span class="nav-text">Profil</span>
                 </a>
             </li>
             <li class="sidebar-item">
@@ -119,15 +119,15 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="profil.php">
-                            <span class="icon-3d"><i class="fas fa-user"></i></span>
-                            <span class="nav-text">Profil</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="bts-sio.php">
                             <span class="icon-3d"><i class="fas fa-graduation-cap"></i></span>
                             <span class="nav-text">BTS SIO</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.php">
+                            <span class="icon-3d"><i class="fas fa-user"></i></span>
+                            <span class="nav-text">Profil</span>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
