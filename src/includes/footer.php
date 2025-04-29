@@ -51,6 +51,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/sidebar.js"></script>
+    <script src="js/dropdown-init.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/bts-sio.js"></script>
     <script src="js/ateliers-pro.js"></script>
