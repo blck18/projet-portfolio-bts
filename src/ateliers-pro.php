@@ -356,6 +356,30 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- Zabbix -->
+            <div class="atelier-card fade-in" data-category="infrastructure" style="animation-delay: 1.5s;">
+                <div class="atelier-header">
+                    <div class="atelier-icon-wrapper">
+                        <i class="atelier-icon fas fa-chart-line"></i>
+                    </div>
+                </div>
+                <div class="atelier-body">
+                    <h3 class="atelier-title">Zabbix</h3>
+                    <p class="atelier-description">Mise en place d'une solution de surveillance d'infrastructure avec Zabbix pour le monitoring en temps réel des serveurs, réseaux et applications avec alertes et tableaux de bord personnalisés.</p>
+                    <div class="atelier-tags">
+                        <span class="atelier-tag">Infrastructure</span>
+                        <span class="atelier-tag">Monitoring</span>
+                        <span class="atelier-tag">Système</span>
+                    </div>
+                    <div class="atelier-footer">
+                        <a href="rapports/zabbix.pdf" class="atelier-btn" target="_blank">
+                            <i class="fas fa-file-pdf"></i>
+                            Voir le rapport
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <div class="row mt-5">
