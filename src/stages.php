@@ -30,7 +30,7 @@
                                 <strong>Secteur :</strong> Éducation / Formation
                             </p>
                             <p>
-                                <strong>Tuteur :</strong> M. Dupont
+                                <strong>Tuteur :</strong> M. Louis DUCREUX
                             </p>
                             <p>
                                 <strong>Durée :</strong> 7 semaines
@@ -141,7 +141,7 @@
                                 <strong>Secteur :</strong> Imprimerie / Services
                             </p>
                             <p>
-                                <strong>Tuteur :</strong> Mme Martin
+                                <strong>Tuteur :</strong> M. David CERAMIAUX
                             </p>
                             <p>
                                 <strong>Durée :</strong> 5 semaines
