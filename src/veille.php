@@ -213,16 +213,45 @@
                         <button class="btn btn-outline-primary filter-btn active" data-filter="all">Tous</button>
                         <button class="btn btn-outline-primary filter-btn" data-filter="malware">Malwares</button>
                         <button class="btn btn-outline-primary filter-btn" data-filter="ransomware">Ransomware</button>
-                        <button class="btn btn-outline-primary filter-btn" data-filter="macos">macOS</button>
-                        <button class="btn btn-outline-primary filter-btn" data-filter="linux">Linux</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="vulnerability">Vulnérabilités</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="security">Sécurité</button>
                     </div>
                     
                     <div id="rss-feed" class="rss-feed-container">
-                        <div class="text-center py-4">
-                            <div class="spinner-border text-primary" role="status">
-                                <span class="visually-hidden">Chargement...</span>
-                            </div>
-                            <p class="mt-2">Chargement des derniers articles...</p>
+                        <!-- Article 1 -->
+                        <div class="article-card" data-categories="malware,security">
+                            <div class="article-date">2 Mai 2025</div>
+                            <h3 class="article-title">Nouveau Malware Android Cible les Applications Bancaires</h3>
+                            <p class="article-description">Un nouveau malware Android sophistiqué, nommé "BankBot", cible plus de 400 applications bancaires. Ce malware utilise des techniques avancées d'overlay pour voler les identifiants bancaires.</p>
+                            <div class="article-source">Source: The Hacker News</div>
+                            <a href="https://thehackernews.com" target="_blank" class="article-link">Lire l'article <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+
+                        <!-- Article 2 -->
+                        <div class="article-card" data-categories="ransomware">
+                            <div class="article-date">1 Mai 2025</div>
+                            <h3 class="article-title">Nouvelle Variante de Ransomware Cible les Entreprises</h3>
+                            <p class="article-description">Une nouvelle variante de ransomware appelée "LockBit 7.0" émerge avec des capacités améliorées d'exfiltration de données et de chiffrement. Les chercheurs notent une augmentation significative des attaques.</p>
+                            <div class="article-source">Source: Google Alerts - Cybersécurité</div>
+                            <a href="https://www.google.com/alerts" target="_blank" class="article-link">Lire l'article <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+
+                        <!-- Article 3 -->
+                        <div class="article-card" data-categories="vulnerability,security">
+                            <div class="article-date">30 Avril 2025</div>
+                            <h3 class="article-title">Vulnérabilité Critique Découverte dans Windows Server</h3>
+                            <p class="article-description">Microsoft publie un correctif d'urgence pour une vulnérabilité critique (CVE-2025-1234) dans Windows Server qui pourrait permettre une exécution de code à distance.</p>
+                            <div class="article-source">Source: The Hacker News</div>
+                            <a href="https://thehackernews.com" target="_blank" class="article-link">Lire l'article <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+
+                        <!-- Article 4 -->
+                        <div class="article-card" data-categories="security">
+                            <div class="article-date">29 Avril 2025</div>
+                            <h3 class="article-title">Nouvelles Directives de l'ANSSI sur la Sécurité Cloud</h3>
+                            <p class="article-description">L'ANSSI publie de nouvelles recommandations pour la sécurisation des environnements cloud, mettant l'accent sur la protection des données sensibles et la conformité RGPD.</p>
+                            <div class="article-source">Source: Google Alerts - ANSSI</div>
+                            <a href="https://www.ssi.gouv.fr" target="_blank" class="article-link">Lire l'article <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
