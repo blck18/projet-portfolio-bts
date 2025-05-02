@@ -20,7 +20,7 @@
                     </div>
                     <h3 class="certification-title">PIX</h3>
                     <p class="certification-issuer">Certification des compétences numériques</p>
-                    <span class="certification-date">Complété</span>
+                    <span class="certification-date">Complet</span>
                 </div>
                 <div class="certification-content">
                     <p class="certification-description">
@@ -54,7 +54,7 @@
                     </div>
                     <h3 class="certification-title">SecNumAcadémie</h3>
                     <p class="certification-issuer">ANSSI - Cybersécurité</p>
-                    <span class="certification-date">Complété</span>
+                    <span class="certification-date">Complet</span>
                 </div>
                 <div class="certification-content">
                     <p class="certification-description">
@@ -120,7 +120,7 @@
                     </div>
                     <h3 class="certification-title">Atelier RGPD</h3>
                     <p class="certification-issuer">CNIL - Commission Nationale de l'Informatique et des Libertés</p>
-                    <span class="certification-date">Complété</span>
+                    <span class="certification-date">Complet</span>
                 </div>
                 <div class="certification-content">
                     <p class="certification-description">
@@ -135,7 +135,7 @@
                     <div class="certification-actions">
                         <a href="#" class="certification-btn">
                             <i class="fas fa-certificate"></i>
-                            Complété
+                            Complet
                         </a>
                         <a href="https://www.cnil.fr/fr/rgpd-se-former-et-sinformer" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
