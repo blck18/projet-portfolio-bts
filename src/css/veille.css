@@ -549,22 +549,26 @@
 
 /* Filtres d'articles */
 .filter-buttons {
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 20px;
 }
 
 .filter-btn {
-    border-color: var(--veille-primary);
-    color: var(--veille-primary);
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: rgba(77, 121, 255, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(77, 121, 255, 0.2);
     transition: all 0.3s ease;
 }
 
-.filter-btn:hover, .filter-btn.active {
-    background-color: var(--veille-primary);
-    border-color: var(--veille-primary);
+.filter-btn:hover,
+.filter-btn.active {
+    background: var(--veille-primary);
     color: #fff;
+    border-color: var(--veille-primary);
 }
 
 /* Articles RSS */
@@ -673,7 +677,7 @@
 .article-card {
     background: rgba(22, 27, 46, 0.9);
     border-radius: 12px;
-    padding: 20px;
+    padding: 25px;
     margin-bottom: 25px;
     border: 1px solid var(--veille-border);
     transition: all 0.3s ease;
@@ -685,51 +689,36 @@
     transform: translateY(-5px);
     box-shadow: var(--veille-hover-shadow);
     border-color: rgba(77, 121, 255, 0.3);
-}
-
-.article-image {
-    width: 100%;
-    height: 200px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    overflow: hidden;
-    position: relative;
-}
-
-.article-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.article-card:hover .article-image img {
-    transform: scale(1.05);
+    background: rgba(22, 27, 46, 0.95);
 }
 
 .article-date {
     font-size: 0.9rem;
     color: var(--veille-accent);
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    font-weight: 500;
 }
 
 .article-title {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #fff;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     line-height: 1.4;
+    font-weight: 600;
 }
 
 .article-description {
     color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     line-height: 1.6;
+    font-size: 1.05rem;
 }
 
 .article-source {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-style: italic;
 }
 
 .article-link {
@@ -739,11 +728,16 @@
     color: var(--veille-primary);
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: rgba(77, 121, 255, 0.1);
 }
 
 .article-link:hover {
-    color: var(--veille-accent);
+    color: #fff;
+    background: var(--veille-primary);
+    transform: translateY(-2px);
 }
 
 .article-link i {

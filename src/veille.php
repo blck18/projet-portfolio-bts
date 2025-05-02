@@ -220,9 +220,6 @@
                     <div id="rss-feed" class="rss-feed-container">
                         <!-- Article 1 -->
                         <div class="article-card" data-categories="malware,security">
-                            <div class="article-image">
-                                <img src="https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=800&q=80" alt="Android Malware BankBot">
-                            </div>
                             <div class="article-date">2 Mai 2025</div>
                             <h3 class="article-title">Nouveau Malware Android Cible les Applications Bancaires</h3>
                             <p class="article-description">Un nouveau malware Android sophistiqué, nommé "BankBot", cible plus de 400 applications bancaires. Ce malware utilise des techniques avancées d'overlay pour voler les identifiants bancaires.</p>
@@ -232,9 +229,6 @@
 
                         <!-- Article 2 -->
                         <div class="article-card" data-categories="ransomware">
-                            <div class="article-image">
-                                <img src="https://images.unsplash.com/photo-1614064548237-096f735f344f?w=800&q=80" alt="LockBit Ransomware">
-                            </div>
                             <div class="article-date">1 Mai 2025</div>
                             <h3 class="article-title">Nouvelle Variante de Ransomware Cible les Entreprises</h3>
                             <p class="article-description">Une nouvelle variante de ransomware appelée "LockBit 7.0" émerge avec des capacités améliorées d'exfiltration de données et de chiffrement. Les chercheurs notent une augmentation significative des attaques.</p>
@@ -244,9 +238,6 @@
 
                         <!-- Article 3 -->
                         <div class="article-card" data-categories="vulnerability,security">
-                            <div class="article-image">
-                                <img src="https://images.unsplash.com/photo-1551808525-51a94da548ce?w=800&q=80" alt="Windows Server Vulnerability">
-                            </div>
                             <div class="article-date">30 Avril 2025</div>
                             <h3 class="article-title">Vulnérabilité Critique Découverte dans Windows Server</h3>
                             <p class="article-description">Microsoft publie un correctif d'urgence pour une vulnérabilité critique (CVE-2025-1234) dans Windows Server qui pourrait permettre une exécution de code à distance.</p>
@@ -256,9 +247,6 @@
 
                         <!-- Article 4 -->
                         <div class="article-card" data-categories="security">
-                            <div class="article-image">
-                                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80" alt="ANSSI Cloud Security">
-                            </div>
                             <div class="article-date">29 Avril 2025</div>
                             <h3 class="article-title">Nouvelles Directives de l'ANSSI sur la Sécurité Cloud</h3>
                             <p class="article-description">L'ANSSI publie de nouvelles recommandations pour la sécurisation des environnements cloud, mettant l'accent sur la protection des données sensibles et la conformité RGPD.</p>
