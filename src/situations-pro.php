@@ -90,8 +90,8 @@
                     
                     <div class="situation-actions fade-in" style="animation-delay: 0.8s;">
                         <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#elkModal">
-                            <i class="fas fa-search-plus me-2"></i>
-                            Voir les captures d'écran
+                            <i class="fas fa-file-alt me-2"></i>
+                            Voir la documentation
                         </a>
                     </div>
                 </div>
@@ -174,8 +174,8 @@
                     
                     <div class="situation-actions fade-in" style="animation-delay: 1.6s;">
                         <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#nessusModal">
-                            <i class="fas fa-search-plus me-2"></i>
-                            Voir les captures d'écran
+                            <i class="fas fa-file-alt me-2"></i>
+                            Voir la documentation
                         </a>
                     </div>
                 </div>
