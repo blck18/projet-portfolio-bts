@@ -38,7 +38,7 @@
                             <i class="fas fa-certificate"></i>
                             Score: 438/1024
                         </a>
-                        <a href="https://pix.fr/" target="_blank" class="certification-btn">
+                        <a href="assets/certifications/pix.pdf" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
                             Aperçu
                         </a>
@@ -71,7 +71,7 @@
                             <i class="fas fa-certificate"></i>
                             Niveau: Avancé
                         </a>
-                        <a href="https://secnumacademie.gouv.fr/" target="_blank" class="certification-btn">
+                        <a href="assets/certifications/secnum.pdf" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
                             Aperçu
                         </a>
@@ -104,7 +104,7 @@
                             <i class="fas fa-certificate"></i>
                             En préparation
                         </a>
-                        <a href="https://aws.amazon.com/fr/certification/certified-cloud-practitioner/" target="_blank" class="certification-btn">
+                        <a href="assets/certifications/aws.pdf" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
                             Aperçu
                         </a>
@@ -137,7 +137,7 @@
                             <i class="fas fa-certificate"></i>
                             Complet
                         </a>
-                        <a href="https://www.cnil.fr/fr/rgpd-se-former-et-sinformer" target="_blank" class="certification-btn">
+                        <a href="assets/certifications/rgpd.pdf" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
                             Aperçu
                         </a>
@@ -171,7 +171,7 @@
                             <i class="fas fa-certificate"></i>
                             En cours
                         </a>
-                        <a href="https://tryhackme.com/" target="_blank" class="certification-btn">
+                        <a href="assets/certifications/tryhackme.pdf" target="_blank" class="certification-btn">
                             <i class="fas fa-external-link-alt"></i>
                             Aperçu
                         </a>
