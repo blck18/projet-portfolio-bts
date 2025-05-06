@@ -44,8 +44,6 @@
                                     <span class="tech-badge">Kibana</span>
                                     <span class="tech-badge">Filebeat</span>
                                     <span class="tech-badge">Linux</span>
-                                    <span class="tech-badge">Docker</span>
-                                    <span class="tech-badge">Nginx</span>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +53,7 @@
                         <h3>Démarche et réalisation</h3>
                         <ol>
                             <li>Analyse des besoins et identification des sources de logs à centraliser</li>
-                            <li>Mise en place d'une architecture conteneurisée avec Docker pour les composants ELK</li>
+                            <li>Installation et configuration des composants ELK sur un serveur Linux</li>
                             <li>Configuration d'Elasticsearch pour le stockage et l'indexation des logs</li>
                             <li>Déploiement de Logstash pour la collecte, le traitement et l'enrichissement des logs</li>
                             <li>Installation et configuration de Filebeat sur les différents serveurs pour l'envoi des logs</li>
@@ -82,7 +80,6 @@
                         <h3>Compétences mobilisées</h3>
                         <div class="skill-list">
                             <span class="skill-badge">Administration système</span>
-                            <span class="skill-badge">Conteneurisation</span>
                             <span class="skill-badge">Gestion de logs</span>
                             <span class="skill-badge">Analyse de données</span>
                             <span class="skill-badge">Sécurité informatique</span>
