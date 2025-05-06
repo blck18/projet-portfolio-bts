@@ -68,8 +68,8 @@
                     <div class="situation-results fade-in" style="animation-delay: 0.6s;">
                         <h3>Résultats obtenus</h3>
                         <ul>
-                            <li>Centralisation réussie des logs de plus de 50 serveurs et applications</li>
-                            <li>Réduction du temps de détection des incidents de 75%</li>
+                            <li>Centralisation réussie des logs de l'ensemble des serveurs et applications de l'entreprise</li>
+                            <li>Réduction significative du temps de détection des incidents</li>
                             <li>Amélioration de la capacité d'analyse et de corrélation des événements</li>
                             <li>Mise en conformité avec les exigences réglementaires en matière de conservation des logs</li>
                             <li>Dashboards personnalisés pour différentes équipes (sécurité, infrastructure, développement)</li>
