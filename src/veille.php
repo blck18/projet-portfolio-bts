@@ -205,6 +205,74 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="veille-card" data-aos="fade-up" data-aos-delay="400">
+                    <h2><i class="fas fa-newspaper me-2"></i>Derniers articles suivis</h2>
+                    
+                    <div class="filter-buttons mb-4">
+                        <button class="btn btn-outline-primary filter-btn active" data-filter="all">Tous</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="malware">Malwares</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="ransomware">Ransomware</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="vulnerability">Vulnérabilités</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="security">Sécurité</button>
+                    </div>
+                    
+                    <div id="rss-feed" class="rss-feed-container">
+                        <!-- Article 1 -->
+                        <div class="article-card" data-categories="malware,security">
+                            <div class="article-date">6 Mai 2025</div>
+                            <h3 class="article-title">FrigidStealer : Ce malware cible votre Mac via de fausses mises à jour</h3>
+                            <p class="article-description">Un nouveau malware nommé FrigidStealer cible spécifiquement les utilisateurs Mac en se faisant passer pour des mises à jour de navigateur légitimes.</p>
+                            <div class="article-source">Source: Mac4Ever</div>
+                            <a href="https://www.mac4ever.com/mac/187387-frigidstealer-ce-malware-cible-votre-mac-via-de-fausses-mises-a-jour-de-navigateur" target="_blank" class="article-link">Lire l'article <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+
+                        <!-- Article 2 -->
+                        <div class="article-card" data-categories="malware">
+                            <div class="article-date">6 Mai 2025</div>
+                            <h3 class="article-title">Triada : Un malware préinstallé dans le firmware de smartphones Android</h3>
+                            <p class="article-description">Kaspersky révèle la présence du malware Triada préinstallé dans le firmware de certains smartphones Android, compromettant la sécurité dès l'usine.</p>
+                            <div class="article-source">Source: Generation NT</div>
+                            <a href="https://www.generation-nt.com/actualites/triada-malware-preinstallation-firmware-smartphone-android-kaspersky-2056930" target="_blank" class="article-link">Lire l'article <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+
+                        <!-- Article 3 -->
+                        <div class="article-card" data-categories="security">
+                            <div class="article-date">6 Mai 2025</div>
+                            <h3 class="article-title">Un nouveau botnet prend d'assaut des appareils de vidéosurveillance</h3>
+                            <p class="article-description">Une nouvelle menace cible les systèmes de vidéosurveillance, créant un vaste réseau de botnets pour des attaques distribuées.</p>
+                            <div class="article-source">Source: 01Net</div>
+                            <a href="https://www.01net.com/actualites/nouveau-botnet-prend-assaut-certains-appareils-videosurveillance-adresses-ip-malveillantes.html" target="_blank" class="article-link">Lire l'article <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+
+                        <!-- Article 4 -->
+                        <div class="article-card" data-categories="ransomware">
+                            <div class="article-date">6 Mai 2025</div>
+                            <h3 class="article-title">Rançongiciel : Comment JohnSmith, Boba et Svetka extorquent leurs victimes via RDP</h3>
+                            <p class="article-description">Analyse des techniques utilisées par différents groupes de rançongiciels pour exploiter les accès RDP et compromettre les systèmes.</p>
+                            <div class="article-source">Source: ZDNet</div>
+                            <a href="https://www.zdnet.fr/actualites/rancongiciel-comment-johnsmith-boba-ou-encore-svetka-ont-tente-dextorquer-leurs-victimes-en-passant-par-des-acces-rdp-453256.htm" target="_blank" class="article-link">Lire l'article <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+
+                        <!-- Article 5 -->
+                        <div class="article-card" data-categories="malware">
+                            <div class="article-date">6 Mai 2025</div>
+                            <h3 class="article-title">Les dangers des infostealers</h3>
+                            <p class="article-description">Une analyse approfondie des infostealers, ces logiciels malveillants spécialisés dans le vol d'informations personnelles et sensibles.</p>
+                            <div class="article-source">Source: Il Mattino</div>
+                            <a href="https://www.ilmattino.it/fr/les_dangers_des_infostealers-8806081.html" target="_blank" class="article-link">Lire l'article <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+
+                        <!-- Article 6 -->
+                        <div class="article-card" data-categories="malware,vulnerability">
+                            <div class="article-date">6 Mai 2025</div>
+                            <h3 class="article-title">Alerte cyberattaque : Un faux plugin anti-malware sème la pagaille sur WordPress</h3>
+                            <p class="article-description">Découverte d'un plugin WordPress malveillant se faisant passer pour un outil de sécurité, compromettant les sites web des victimes.</p>
+                            <div class="article-source">Source: MSN Actualités</div>
+                            <a href="https://www.msn.com/fr-fr/actualite/technologie-et-sciences/alerte-cyberattaque-un-faux-plugin-anti-malware-s%C3%A8me-la-pagaille-sur-wordpress-comment-le-rep%C3%A9rer/ar-AA1E2BXH" target="_blank" class="article-link">Lire l'article <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
