@@ -125,9 +125,6 @@
                                 <div class="tech-list">
                                     <span class="tech-badge">Nessus Professional</span>
                                     <span class="tech-badge">Linux</span>
-                                    <span class="tech-badge">Windows Server</span>
-                                    <span class="tech-badge">Active Directory</span>
-                                    <span class="tech-badge">VLAN</span>
                                     <span class="tech-badge">Firewall</span>
                                     <span class="tech-badge">CVSS</span>
                                 </div>
@@ -141,36 +138,34 @@
                             <li>Analyse des besoins et définition du périmètre de scan</li>
                             <li>Installation de Nessus Professional sur un serveur Linux dédié</li>
                             <li>Configuration des paramètres de sécurité et des accès</li>
-                            <li>Création de politiques de scan adaptées aux différents environnements (serveurs, postes de travail, équipements réseau)</li>
-                            <li>Mise en place de scans authentifiés pour une analyse approfondie des systèmes</li>
-                            <li>Configuration des exclusions pour éviter les perturbations sur les systèmes critiques</li>
-                            <li>Planification des scans réguliers et automatisés</li>
-                            <li>Développement de scripts pour l'extraction et l'analyse des résultats</li>
-                            <li>Mise en place d'un processus de remédiation des vulnérabilités identifiées</li>
-                            <li>Formation des équipes IT à l'interprétation des rapports et à la correction des vulnérabilités</li>
+                            <li>Création de politiques de scan adaptées aux différents systèmes</li>
+                            <li>Mise en place de scans authentifiés pour une analyse approfondie</li>
+                            <li>Configuration des planifications de scans réguliers</li>
+                            <li>Définition des seuils d'alerte basés sur le score CVSS</li>
+                            <li>Mise en place d'un processus de remédiation</li>
+                            <li>Formation de l'équipe à l'utilisation de Nessus</li>
+                            <li>Documentation des procédures de scan et de remédiation</li>
                         </ol>
                     </div>
                     
                     <div class="situation-results fade-in" style="animation-delay: 1.4s;">
                         <h3>Résultats obtenus</h3>
                         <ul>
-                            <li>Identification et correction de plus de 150 vulnérabilités critiques et élevées</li>
-                            <li>Réduction de 85% des vulnérabilités exploitables à distance</li>
-                            <li>Mise en place d'un processus continu d'identification et de correction des failles</li>
-                            <li>Amélioration significative du niveau de sécurité global de l'infrastructure</li>
-                            <li>Conformité accrue avec les normes de sécurité et les bonnes pratiques</li>
-                            <li>Rapports détaillés permettant de prioriser les actions correctives</li>
+                            <li>Détection proactive des vulnérabilités de sécurité</li>
+                            <li>Mise en place d'un processus régulier de scan de sécurité</li>
+                            <li>Amélioration continue de la posture de sécurité</li>
+                            <li>Rapports détaillés permettant de prioriser les corrections</li>
+                            <li>Réduction significative des vulnérabilités critiques</li>
                         </ul>
                     </div>
                     
                     <div class="situation-skills fade-in" style="animation-delay: 1.5s;">
                         <h3>Compétences mobilisées</h3>
                         <div class="skill-list">
-                            <span class="skill-badge">Cybersécurité</span>
+                            <span class="skill-badge">Administration système</span>
+                            <span class="skill-badge">Sécurité informatique</span>
                             <span class="skill-badge">Analyse de vulnérabilités</span>
                             <span class="skill-badge">Gestion des risques</span>
-                            <span class="skill-badge">Administration système</span>
-                            <span class="skill-badge">Scripting</span>
                             <span class="skill-badge">Documentation technique</span>
                         </div>
                     </div>
