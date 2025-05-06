@@ -108,7 +108,7 @@
                         <div class="col-md-4">
                             <div class="situation-info slide-in-left" style="animation-delay: 1.0s;">
                                 <h3>Contexte</h3>
-                                <p>Suite à un audit de sécurité, l'entreprise Europe GSB a souhaité renforcer son dispositif de cybersécurité en mettant en place une solution d'analyse de vulnérabilités. J'ai été chargé de déployer et configurer Nessus Professional pour effectuer des scans réguliers de l'infrastructure.</p>
+                                <p>Suite à un audit de sécurité, l'entreprise Europe GSB a souhaité renforcer son dispositif de cybersécurité en mettant en place une solution d'analyse de vulnérabilités. J'ai été chargé de déployer et configurer Nessus Essentials pour effectuer des scans réguliers de l'infrastructure.</p>
                             </div>
                         </div>
                         
@@ -123,7 +123,7 @@
                             <div class="situation-info slide-in-right" style="animation-delay: 1.2s;">
                                 <h3>Environnement technique</h3>
                                 <div class="tech-list">
-                                    <span class="tech-badge">Nessus Professional</span>
+                                    <span class="tech-badge">Nessus Essentials</span>
                                     <span class="tech-badge">Linux</span>
                                     <span class="tech-badge">Firewall</span>
                                     <span class="tech-badge">CVSS</span>
@@ -136,7 +136,7 @@
                         <h3>Démarche et réalisation</h3>
                         <ol>
                             <li>Analyse des besoins et définition du périmètre de scan</li>
-                            <li>Installation de Nessus Professional sur un serveur Linux dédié</li>
+                            <li>Installation de Nessus Essentials sur un serveur Linux dédié</li>
                             <li>Configuration des paramètres de sécurité et des accès</li>
                             <li>Création de politiques de scan adaptées aux différents systèmes</li>
                             <li>Mise en place de scans authentifiés pour une analyse approfondie</li>
