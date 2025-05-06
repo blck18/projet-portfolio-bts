@@ -44,6 +44,7 @@
                                     <span class="tech-badge">Kibana</span>
                                     <span class="tech-badge">Filebeat</span>
                                     <span class="tech-badge">Linux</span>
+                                    <span class="tech-badge">Proxmox</span>
                                 </div>
                             </div>
                         </div>
@@ -127,6 +128,7 @@
                                     <span class="tech-badge">Linux</span>
                                     <span class="tech-badge">Firewall</span>
                                     <span class="tech-badge">CVSS</span>
+                                    <span class="tech-badge">Proxmox</span>
                                 </div>
                             </div>
                         </div>
