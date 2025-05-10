@@ -4,10 +4,6 @@ RewriteEngine On
 # Définir le fichier d'index par défaut
 DirectoryIndex index.php
 
-# Redirection vers HTTPS (à activer en production)
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
 # Supprimer l'extension .php des URLs
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
@@ -24,7 +20,7 @@ Options -Indexes
 
 # Compression GZIP
 <IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json application/pdf
 </IfModule>
 
 # Mise en cache des ressources statiques
@@ -49,33 +45,24 @@ Options -Indexes
   ExpiresByType font/woff2 "access plus 1 year"
 </IfModule>
 
-# Protection XSS
+# Headers de sécurité
 <IfModule mod_headers.c>
-  Header set X-XSS-Protection "1; mode=block"
   Header set X-Content-Type-Options "nosniff"
   Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
+  
+  # Configuration pour les PDFs
+  <FilesMatch "\.pdf$">
+    Header set Content-Type "application/pdf"
+    Header set Content-Disposition "inline"
+  </FilesMatch>
 </IfModule>
 
-# Configuration spécifique pour les fichiers PDF
+# Permettre l'accès aux fichiers PDF
 <Files *.pdf>
-    Header set Content-Type application/pdf
-    Header set Content-Disposition inline
-    Allow from all
-    Require all granted
+  Require all granted
 </Files>
-
-# Configuration spécifique pour le dossier assets/stages
-<Directory "assets/stages">
-    Options +Indexes
-    AllowOverride None
-    Require all granted
-    
-    <FilesMatch "\.pdf$">
-        Header set Content-Type application/pdf
-        Header set Content-Disposition inline
-    </FilesMatch>
-</Directory>
 
 # Désactiver la signature du serveur
 ServerSignature Off
