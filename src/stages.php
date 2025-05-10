@@ -22,7 +22,7 @@
                     <div class="col-md-6 mb-4 mb-md-0">
                         <div class="stage-info">
                             <h3><i class="fas fa-building me-2"></i>Entreprise</h3>
-                            <p class="company-name">Campus Beaupeyrat</p>
+                            <p class="company-name">OGEC Beaupeyrat</p>
                             <p class="company-address">
                                 <i class="fas fa-map-marker-alt"></i> 9 Rue Pétiniaud Beaupeyrat, 87000 Limoges
                             </p>
