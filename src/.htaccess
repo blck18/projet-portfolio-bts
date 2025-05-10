@@ -57,5 +57,25 @@ Options -Indexes
   Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
 
+# Configuration spécifique pour les fichiers PDF
+<Files *.pdf>
+    Header set Content-Type application/pdf
+    Header set Content-Disposition inline
+    Allow from all
+    Require all granted
+</Files>
+
+# Configuration spécifique pour le dossier assets/stages
+<Directory "assets/stages">
+    Options +Indexes
+    AllowOverride None
+    Require all granted
+    
+    <FilesMatch "\.pdf$">
+        Header set Content-Type application/pdf
+        Header set Content-Disposition inline
+    </FilesMatch>
+</Directory>
+
 # Désactiver la signature du serveur
 ServerSignature Off

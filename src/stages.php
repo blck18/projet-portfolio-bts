@@ -35,7 +35,7 @@
                             <p>
                                 <strong>Durée :</strong> 7 semaines
                             </p>
-                            <a href="#" class="report-button">
+                            <a href="/assets/stages/stage-2a-campus-beaupeyrat.pdf" class="report-button" target="_blank" download>
                                 <i class="fas fa-file-pdf"></i> Télécharger le rapport
                             </a>
                         </div>
@@ -146,7 +146,7 @@
                             <p>
                                 <strong>Durée :</strong> 5 semaines
                             </p>
-                            <a href="#" class="report-button">
+                            <a href="/assets/stages/stage-1a-procopifac.pdf" class="report-button" target="_blank" download>
                                 <i class="fas fa-file-pdf"></i> Télécharger le rapport
                             </a>
                         </div>
