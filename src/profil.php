@@ -122,9 +122,9 @@
                                                     <div class="skill-info">
                                                         <h5>PHP</h5>
                                                         <div class="skill-bar">
-                                                            <div class="skill-progress" style="width: 75%;"></div>
+                                                            <div class="skill-progress" style="width: 60%;"></div>
                                                         </div>
-                                                        <span class="skill-percentage">75%</span>
+                                                        <span class="skill-percentage">60%</span>
                                                     </div>
                                                 </div>
                                                 <div class="skill-card">
@@ -134,9 +134,9 @@
                                                     <div class="skill-info">
                                                         <h5>Python</h5>
                                                         <div class="skill-bar">
-                                                            <div class="skill-progress" style="width: 80%;"></div>
+                                                            <div class="skill-progress" style="width: 75%;"></div>
                                                         </div>
-                                                        <span class="skill-percentage">80%</span>
+                                                        <span class="skill-percentage">75%</span>
                                                     </div>
                                                 </div>
                                                 <div class="skill-card">
